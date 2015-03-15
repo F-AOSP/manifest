@@ -465,11 +465,11 @@
   <project name="Alberto97/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="aosp-5.0" />
   <project name="Alberto97/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="aosp-5.0" />
   <project name="Alberto97/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.0" />
-  <project name="Alberto97/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="aosp-5.0" />
   <project name="F-AOSP/platform_device_qcom_common" path="device/qcom/common" remote="github" revision="aosp-5.0" />
   <project name="F-AOSP/platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="aosp-5.0" />
   <project name="F-AOSP/platform_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8226" remote="github" revision="aosp-5.0" />
   <project name="F-AOSP/platform_hardware_qcom_display" path="hardware/qcom/display-caf/msm8226" remote="github" revision="aosp-5.0" />
   <project name="F-AOSP/platform_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="aosp-5.0" />
   <project name="F-AOSP/platform_hardware_qcom_media" path="hardware/qcom/media-caf/msm8226" remote="github" revision="aosp-5.0" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.0" />
 </manifest>
