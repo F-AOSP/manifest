@@ -18,7 +18,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project name="F-AOSP/platform_bionic" path="bionic" groups="pdk" remote="github" revision="aosp-5.1" />
+  <project name="CyanogenMod/android_bionic" path="bionic" groups="pdk" remote="github" revision="cm-12.1" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
@@ -439,7 +439,7 @@
   <project name="F-AOSP/platform_system_extras" groups="pdk" path="system/extras" remote="github" revision="aosp-5.1" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project name="CyanogenMod/android_system_media" path="system/media" groups="pdk" remote="github" revision="cm-12.1" />
-  <project name="F-AOSP/platform_system_netd" groups="pdk" path="system/netd" remote="github" revision="aosp-5.1" />
+  <project name="CyanogenMod/android_system_netd" groups="pdk" path="system/netd" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_system_qcom" groups="qcom" path="system/qcom" remote="github" revision="cm-12.1" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project name="F-AOSP/platform_system_vold" groups="pdk" path="system/vold" remote="github" revision="aosp-5.1" />
