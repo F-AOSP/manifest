@@ -10,7 +10,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <default revision="refs/tags/android-6.0.1_r22"
+  <default revision="refs/tags/android-6.0.1_r30"
            remote="aosp"
            sync-j="4" />
 
@@ -350,7 +350,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project name="CyanogenMod/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
+  <project name="F-AOSP/platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow-mr1" />
   <project name="CyanogenMod/android_packages_apps_BluetoothExt" path="packages/apps/BluetoothExt" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
@@ -444,7 +444,7 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project name="CyanogenMod/android_system_bt" path="system/bt" groups="pdk" remote="github" revision="cm-13.0" />
   <project name="F-AOSP/platform_system_core" path="system/core" groups="pdk" remote="github" revision="marshmallow-mr1" />
-  <project name="CyanogenMod/android_system_extras" path="system/extras" groups="pdk" remote="github" revision="cm-13.0" />
+  <project name="F-AOSP/platform_system_extras" path="system/extras" groups="pdk" remote="github" revision="marshmallow-mr1" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project name="CyanogenMod/android_system_media" path="system/media" groups="pdk" remote="github" revision="cm-13.0" />
