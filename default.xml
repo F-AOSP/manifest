@@ -370,7 +370,6 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project name="F-AOSP/platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="nougat" />
-  <project name="CyanogenMod/android_packages_apps_BluetoothExt" path="packages/apps/BluetoothExt" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
@@ -497,5 +496,6 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project name="F-AOSP/platform_vendor_aosp" path="vendor/aosp" remote="github" revision="nougat" />
+  <project name="CyanogenMod/android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="github" revision="staging/cm-14.0" />
 
 </manifest>
