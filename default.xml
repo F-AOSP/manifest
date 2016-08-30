@@ -356,6 +356,7 @@
   <project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" groups="pdk" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
+  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio/default" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" groups="qcom" remote="github" revision="cm-13.0-caf" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
