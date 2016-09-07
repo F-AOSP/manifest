@@ -18,7 +18,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
+  <project name="CyanogenMod/android_build_kati" path="build/kati" groups="pdk,tradefed" remote="github" revision="staging/cm-14.0" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -353,12 +353,12 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project name="F-AOSP/platform_hardware_libhardware" path="hardware/libhardware" groups="pdk" remote="github" revision="nougat" />
-  <project name="F-AOSP/platform_hardware_libhardware_legacy" path="hardware/libhardware_legacy" groups="pdk" remote="github" revision="nougat" />
+  <project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" groups="pdk" remote="github" revision="staging/cm-14.0-caf" />
+  <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" groups="pdk" remote="github" revision="staging/cm-14.0-caf" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio/default" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project name="F-AOSP/platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" groups="qcom" remote="github" revision="nougat" />
+  <project name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" groups="qcom" remote="github" revision="staging/cm-14.0-caf" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" groups="qcom" remote="github" revision="cm-13.0" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
@@ -470,11 +470,11 @@
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project name="CyanogenMod/android_system_media" path="system/media" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_system_media" path="system/media" groups="pdk" remote="github" revision="staging/cm-14.0-caf" />
   <project path="system/nativepower" name="platform/system/nativepower" />
   <project name="CyanogenMod/android_system_netd" path="system/netd" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="system/nvram" name="platform/system/nvram" />
-  <project name="CyanogenMod/android_system_qcom" path="system/qcom" groups="pdk" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_system_qcom" path="system/qcom" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
@@ -496,7 +496,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project name="F-AOSP/platform_vendor_aosp" path="vendor/aosp" remote="github" revision="nougat" />
+  <project name="F-AOSP/platform_vendor_aosp" path="vendor/aosp" remote="github" revision="nougat-staging" />
   <project name="F-AOSP/platform_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="github" revision="nougat" />
 
 </manifest>
