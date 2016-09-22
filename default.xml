@@ -141,7 +141,7 @@
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
+  <project name="CyanogenMod/android_external_ipsec-tools" path="external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iw" name="platform/external/iw" />
@@ -476,7 +476,7 @@
   <project path="system/nvram" name="platform/system/nvram" />
   <project name="CyanogenMod/android_system_qcom" path="system/qcom" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
+  <project name="F-AOSP/platform_system_sepolicy" path="system/sepolicy" groups="pdk" remote="github" revision="nougat" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
