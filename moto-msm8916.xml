@@ -4,7 +4,6 @@
   <project name="Alberto97/android_device_motorola_osprey" path="device/motorola/osprey" remote="github" revision="marshmallow-mr1" />
   <project name="Alberto97/android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" revision="marshmallow-mr1" />
   <project name="Alberto97/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="marshmallow-mr1" />
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-14.0" />
   <project name="CyanogenMod/android_external_connectivity" path="external/connectivity" remote="github" revision="staging/cm-14.0" />
   <project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="staging/cm-14.0" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-14.0" />
