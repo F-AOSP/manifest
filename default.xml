@@ -16,6 +16,7 @@
 
   <project name="F-AOSP/platform_build" path="build" groups="pdk" remote="github" revision="nougat" >
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project name="CyanogenMod/android_build_kati" path="build/kati" groups="pdk,tradefed" remote="github" revision="staging/cm-14.0" />
