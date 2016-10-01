@@ -19,14 +19,14 @@
     <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project name="CyanogenMod/android_build_kati" path="build/kati" groups="pdk,tradefed" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_build_kati" path="build/kati" groups="pdk,tradefed" remote="github" revision="cm-14.0" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project name="CyanogenMod/android_bionic" path="bionic" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_bionic" path="bionic" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -53,8 +53,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="staging/cm-14.0" />
-  <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-14.0" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -104,7 +104,7 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
-  <project name="CyanogenMod/android_external_e2fsprogs" path="external/e2fsprogs" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_external_e2fsprogs" path="external/e2fsprogs" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
@@ -142,7 +142,7 @@
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
-  <project name="CyanogenMod/android_external_ipsec-tools" path="external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_external_ipsec-tools" path="external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iw" name="platform/external/iw" />
@@ -276,12 +276,12 @@
   <project path="external/testng" name="platform/external/testng" groups="pdk" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" />
-  <project name="CyanogenMod/android_external_tinyalsa" path="external/tinyalsa" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_external_tinyalsa" path="external/tinyalsa" groups="pdk" remote="github" revision="cm-14.0" />
   <project name="F-AOSP/platform_external_tinycompress" path="external/tinycompress" groups="pdk" remote="github" revision="nougat" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tlsdate" name="platform/external/tlsdate" />
-  <project name="CyanogenMod/android_external_toybox" path="external/toybox" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_external_toybox" path="external/toybox" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="external/tpm2" name="platform/external/tpm2" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
@@ -354,19 +354,19 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" groups="pdk" remote="github" revision="staging/cm-14.0-caf" />
-  <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" groups="pdk" remote="github" revision="staging/cm-14.0-caf" />
+  <project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" groups="pdk" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio/default" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio/default" groups="qcom,qcom_audio" remote="github" revision="cm-14.0" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" groups="qcom" remote="github" revision="staging/cm-14.0-caf" />
+  <project name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" groups="qcom" remote="github" revision="cm-14.0-caf" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" groups="qcom" remote="github" revision="cm-13.0" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project name="CyanogenMod/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" groups="qcom,qcom_keymaster" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" groups="qcom,qcom_keymaster" remote="github" revision="cm-14.0" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
-  <project name="CyanogenMod/android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" groups="qcom_wlan" remote="github" revision="staging/cm-14.0-caf" />
-  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" groups="pdk" remote="github" revision="staging/cm-14.0-caf" />
+  <project name="CyanogenMod/android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" groups="qcom_wlan" remote="github" revision="cm-14.0-caf" />
+  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril-caf" groups="pdk" remote="github" revision="cm-14.0-caf" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
@@ -461,7 +461,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project name="CyanogenMod/android_system_bt" path="system/bt" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_system_bt" path="system/bt" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
@@ -471,11 +471,11 @@
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project name="CyanogenMod/android_system_media" path="system/media" groups="pdk" remote="github" revision="staging/cm-14.0-caf" />
+  <project name="CyanogenMod/android_system_media" path="system/media" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="system/nativepower" name="platform/system/nativepower" />
-  <project name="CyanogenMod/android_system_netd" path="system/netd" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_system_netd" path="system/netd" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="system/nvram" name="platform/system/nvram" />
-  <project name="CyanogenMod/android_system_qcom" path="system/qcom" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_system_qcom" path="system/qcom" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project name="F-AOSP/platform_system_sepolicy" path="system/sepolicy" groups="pdk" remote="github" revision="nougat" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
