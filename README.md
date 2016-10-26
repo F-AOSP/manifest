@@ -3,7 +3,7 @@ The Android Open Source Project Nougat 7.0.0
 
 To initialize your local repository using the AOSP trees, use a command like this:
 ````bash
-repo init -u git://github.com/F-AOSP/manifest.git -b nougat
+repo init -u git://github.com/F-AOSP/manifest.git -b nougat-mr1
 ```
 Add Moto G 2013/2014 resources by typing this:
 ````bash

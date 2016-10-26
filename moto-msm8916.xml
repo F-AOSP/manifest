@@ -5,13 +5,13 @@
   <project name="Alberto97/android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" revision="marshmallow-mr1" />
   <project name="Alberto97/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="marshmallow-mr1" />
   <project name="CyanogenMod/android_external_bson" path="external/bson" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_external_connectivity" path="external/connectivity" remote="github" revision="cm-14.0" />
-  <project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-14.0" />
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_external_connectivity" path="external/connectivity" remote="github" revision="cm-14.1" />
+  <project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-14.1" />
 
   <!-- QCOM HALs -->
-  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8916" />
 
 </manifest>
